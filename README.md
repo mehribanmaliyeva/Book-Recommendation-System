@@ -1,8 +1,7 @@
-This repo contains all of the code  "Build a Semantic Book Recommender with LLMs ". There are five components:
+This repo contains all of the code  "Build a Semantic Book Recommender with LLMs ". There are components:
 
 Text data cleaning 
 Semantic (vector) search and how to build a vector database. This allows users to find the most similar books to a natural language query (e.g., "a book about a person seeking revenge").
-Doing text classification using zero-shot classification in LLMs. This allows us to classify the books as "fiction" or "non-fiction", creating a facet that users can filter the books on.
 Creating a web application using Gradio for users to get book recommendations.
 
 A requirements.txt file containing all the project dependencies is provided as part of this repo.
