@@ -83,7 +83,6 @@ def recommend_books(
         results.append((row["large_thumbnail"], caption))
     return results
 
-# Tonları da əlavə edirik
 tones = ["All", "Happy", "Surprising", "Angry", "Suspenseful", "Sad"]
 
 with gr.Blocks(theme=gr.themes.Glass()) as dashboard:
